@@ -1,4 +1,4 @@
-**Title:** Restaurant Management System Demo
+**Title:** Restaurant Management System
 
 **Description:**
 
