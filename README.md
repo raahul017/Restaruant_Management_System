@@ -1,80 +1,58 @@
----
+**Title:** Restaurant Management System Demo
 
-# Restaurant Management System
+**Description:**
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This is a Java application simulating a basic restaurant management system. It allows users with different roles (admin and user) to perform various actions.
 
-A simple restaurant management system written in Java using Hibernate for database management.
+**Features:**
 
-## Table of Contents
+* User login with role selection (admin/user)
+* Admin functionalities:
+    * Add new food items
+    * Approve table reservation requests
+    * View all orders
+    * View past table reservation requests
+    * Update food items
+    * Delete food items
+* User functionalities:
+    * Order food items
+    * Book a reservation table
 
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+**Dependencies:**
 
-## About
+* Hibernate (for database interactions)
 
-This project is a Java-based restaurant management system. It includes functionalities for both administrators and users, allowing administrators to manage food items, table reservations, and view orders, while users can order food and book table reservations.
+**Getting Started:**
 
-## Features
+1. Clone or download the project repository.
+2. Ensure you have Java Development Kit (JDK) installed and configured on your system.
+3. Configure the database connection details in the relevant Java class (likely a configuration file).
+4. Build the project using a Java build tool like Maven or Gradle (refer to build instructions if provided).
+5. Run the application using the `Login_App` class.
 
-- **Admin Module:**
-  - Add, update, and delete food items.
-  - Approve table reservation requests.
-  - View orders and past table reservation requests.
+**How to Use:**
 
-- **User Module:**
-  - Order food from the menu.
-  - Book table reservations.
+* Run the application.
+* Select your role (admin/user) during login.
+* Enter valid credentials for the chosen role.
+* The application will display a menu based on your role.
+* Follow the prompts and instructions for each functionality.
 
-## Installation
+**Additional Information:**
 
-1. Clone the repository:
+* This is a demo application and might require further development for real-world use.
+* The code uses comments to explain functionalities within the classes.
 
-   ```bash
-   git clone https://github.com/your-username/restaurant-management-system.git
-   ```
+**Contribution:**
 
-2. Navigate to the project directory:
+* Pull requests are welcome for improvements and bug fixes.
+* Follow coding conventions and document your changes clearly.
 
-   ```bash
-   cd restaurant-management-system
-   ```
+**License:**
 
-3. Ensure you have Java and Hibernate installed on your system.
+* Specify the license under which you are distributing the code (e.g., MIT, Apache 2.0).
 
-## Usage
+**Note:**
 
-1. Compile the Java files:
-
-   ```bash
-   javac *.java
-   ```
-
-2. Run the application:
-
-   ```bash
-   java Login_App
-   ```
-
-3. Follow the prompts to log in as an admin or user and use the respective functionalities.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/my-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/my-feature`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
+* This is a general guideline, and you can adapt it based on your specific project requirements and functionalities.
+* You can also include screenshots of the application UI (if applicable) to enhance the README file.
