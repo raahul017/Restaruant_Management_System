@@ -47,12 +47,3 @@ This is a Java application simulating a basic restaurant management system. It a
 
 * Pull requests are welcome for improvements and bug fixes.
 * Follow coding conventions and document your changes clearly.
-
-**License:**
-
-* Specify the license under which you are distributing the code (e.g., MIT, Apache 2.0).
-
-**Note:**
-
-* This is a general guideline, and you can adapt it based on your specific project requirements and functionalities.
-* You can also include screenshots of the application UI (if applicable) to enhance the README file.
